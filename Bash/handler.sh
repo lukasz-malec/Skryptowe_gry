@@ -1,6 +1,4 @@
 #!/bin/bash
-source fileHandler.sh
-
 handle_input() {
 
     if (( round % 2 == 0 )); then
