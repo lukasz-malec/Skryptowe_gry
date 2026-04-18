@@ -12,7 +12,7 @@ Bashu, który:</br>
 Oczywiście, aby uzyskać ocenę 4.0 należy spełnić wymagania na ocenę
 3.0, tak samo na 5.0 należy spełnić wymagania na ocenę 3.0 oraz 4.0.
 Termin to dwa tygodnie od dzisiaj. 
-
+</br></br>
 
 ## Zamek w Minecraft
 
@@ -23,7 +23,7 @@ Zamek należy stworzyć za pomocą skryptu napisanego w JS.
 4.5 Posiada bramę oraz minimum 2 wieże
 5.0 Zamek ma minimum dwa poziomy (piętra) na które można wejść z
 zewnątrz
-
+</br></br>
 
 ## Sklep w ReactJS + NodeJs
 Należy stworzyć prosty sklep z serwerem REST API
@@ -34,6 +34,7 @@ produktów i kategorii
 4.5 Opcja koszyka i płatności działa na React Hook
 5.0 Konfiguracja CORS po stronie NodeJS + konfiguracja po stronie
 ReactJS
+</br></br>
 
 ## Mario w PhaserJS
 Należy stworzyć prostego runnera (Mario) w PhaserJS.
@@ -43,6 +44,7 @@ można wpaść i zginąć
 4.0 Należy dodać przeciwników, których można zabić oraz 3 życia
 4.5 Ładowanie poziomów z pliku
 5.0 Generator poziomów
+</br></br>
 
 ## Crawler w Ruby
 Należy stworzyć crawler produktów na Amazonie lub Allegro w Ruby
@@ -54,6 +56,7 @@ kategoria
 tylko na podstronie o produkcie
 4.5 Należy zapisać linki do produktów
 5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel
+</br></br>
 
 
 ## Tetris  w Lua
