@@ -1,20 +1,27 @@
-# !bin/bash
-
-board=("not" "not" "not" "not" "not" "not" "not" "not" "not")
-playersMoves=("" "" "" "" "" "" "" "" "")
-player=1
-text="x"
-gameOver=0
-round=0
-
+#!/bin/bash
 
 source handler.sh
 source draw.sh
+source fileHandler.sh
+
+init_game() {
+    board=("not" "not" "not" "not" "not" "not" "not" "not" "not")
+    playersMoves=("" "" "" "" "" "" "" "" "")
+    player=1
+    text="x"
+    gameOver=0
+    round=0
+}
+
+if [[ "$1" == "--load" ]]; then
+    source game.txt
+else
+    init_game
+fi
+
 
 
 game_loop(){
-    gameOver=0
-
     echo "Tic-tac-toe game"
    
         

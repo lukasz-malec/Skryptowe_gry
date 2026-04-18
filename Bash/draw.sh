@@ -1,7 +1,6 @@
-# !bin/bash
+#!/bin/bash
 
 # funkcja rysująca plansze wiersz po wierszu
-
 
 draw_board(){
     cell=-1

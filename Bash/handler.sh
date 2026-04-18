@@ -1,5 +1,5 @@
-# !bin/bash
-
+#!/bin/bash
+source fileHandler.sh
 
 handle_input() {
 
@@ -15,6 +15,11 @@ handle_input() {
     while true; do
         read -p "Player ${player} move (0-8): " move
 
+
+        if [[ "$move" == "save" ]]; then
+            save_game
+            exit 0         # konczymy program
+        fi
         
         # czy poprawna liczba
         if ! [[ "$move" =~ ^[0-8]$ ]]; then
@@ -103,4 +108,10 @@ check_if_won(){
     fi    
 
 
+}
+
+save_game() {
+    # wyczysci/stworzy game.txt
+    > game.txt
+    declare -p board playersMoves player text gameOver round >> game.txt  # dopisanie do game.txt
 }
