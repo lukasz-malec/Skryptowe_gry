@@ -5,9 +5,9 @@
 W ramach pierwszego zadania proszę wykonać grę kółko i krzyżyk w
 Bashu, który:</br>
 ✅3.0 - działa w trybie gry turowej,</br>
-[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/3f7e70330498ccfd2f02b35e7c2b3d36c6ed5f0b) </br>
+[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/3f7e70330498ccfd2f02b35e7c2b3d36c6ed5f0b) </br></br>
 ✅4.0 - pozwala na zapis i odtwarzanie przerwanej gry (save game),</br>
-[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/1f99a97b15e48e25b4ed34e4de6562e4e90384d1) </br>
+[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/1f99a97b15e48e25b4ed34e4de6562e4e90384d1) </br></br>
 ❌5.0 - pozwala na grę z komputerem.
 
 Oczywiście, aby uzyskać ocenę 4.0 należy spełnić wymagania na ocenę
