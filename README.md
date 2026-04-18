@@ -3,10 +3,10 @@
 ## Kółko i krzyżyk
 
 W ramach pierwszego zadania proszę wykonać grę kółko i krzyżyk w
-Bashu, który:
+Bashu, który:</br>
 ✅3.0 - działa w trybie gry turowej,</br>
 [Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/3f7e70330498ccfd2f02b35e7c2b3d36c6ed5f0b) </br>
-❌4.0 - pozwala na zapis i odtwarzanie przerwanej gry (save game),</br></br>
+❌4.0 - pozwala na zapis i odtwarzanie przerwanej gry (save game),</br>
 ❌5.0 - pozwala na grę z komputerem.
 
 Oczywiście, aby uzyskać ocenę 4.0 należy spełnić wymagania na ocenę
