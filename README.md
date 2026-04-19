@@ -8,12 +8,15 @@ Bashu, który:</br>
 [Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/3f7e70330498ccfd2f02b35e7c2b3d36c6ed5f0b) </br></br>
 ✅4.0 - pozwala na zapis i odtwarzanie przerwanej gry (save game),</br>
 [Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/1f99a97b15e48e25b4ed34e4de6562e4e90384d1) </br></br>
-❌5.0 - pozwala na grę z komputerem.
+✅5.0 - pozwala na grę z komputerem.</br>
+[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/b8f90c894b861a17c1be5a883c9c8e6d14db7ee6) </br></br>
 
 Oczywiście, aby uzyskać ocenę 4.0 należy spełnić wymagania na ocenę
 3.0, tak samo na 5.0 należy spełnić wymagania na ocenę 3.0 oraz 4.0.
 Termin to dwa tygodnie od dzisiaj. 
 </br></br>
+
+
 
 ## Zamek w Minecraft
 
