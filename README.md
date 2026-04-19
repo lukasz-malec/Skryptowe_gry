@@ -1,4 +1,4 @@
-### Skryptowe_gry
+# Skryptowe_gry
 
 ## Kółko i krzyżyk
 
@@ -16,6 +16,8 @@ Oczywiście, aby uzyskać ocenę 4.0 należy spełnić wymagania na ocenę
 Termin to dwa tygodnie od dzisiaj. 
 </br></br>
 
+Demo: [Link do nagrania](https://github.com/lukasz-malec/Skryptowe_gry/tree/main/Bash/video)
+</br></br>
 
 
 ## Zamek w Minecraft
