@@ -9,6 +9,24 @@ handle_input() {
         player=2
     fi
 
+    #komputert bedzie drugim playerem i bedzie losowal wolne miejsce z planszy  
+    if [[ ${computer} -eq 1 && ${player} -eq 2  ]]; then
+        while true; do
+            computer_pick=$((RANDOM%9))
+
+            # czy pole wolne
+            if [[ "${board[computer_pick]}" == "not" ]]; then
+                echo "Computer moved"
+                board[computer_pick]="taken"
+                playersMoves[computer_pick]="$text"
+                player=1
+                return
+            fi
+        done
+    fi
+        
+
+
     # walidacja danych 
     while true; do
         read -p "Player ${player} move (0-8): " move
@@ -111,5 +129,5 @@ check_if_won(){
 save_game() {
     # wyczysci/stworzy game.txt
     > game.txt
-    declare -p board playersMoves player text gameOver round >> game.txt  # dopisanie do game.txt
+    declare -p board playersMoves player text gameOver round computer >> game.txt  # dopisanie do game.txt
 }

@@ -2,7 +2,6 @@
 
 source handler.sh
 source draw.sh
-source fileHandler.sh
 
 init_game() {
     board=("not" "not" "not" "not" "not" "not" "not" "not" "not")
@@ -11,15 +10,20 @@ init_game() {
     text="x"
     gameOver=0
     round=0
+    computer=0
 }
 
+# opcja odczytania poprzedniej gry niezaleznie czy komputer czy nie
 if [[ "$1" == "--load" ]]; then
     source game.txt
 else
     init_game
 fi
 
-
+# opcja gry z komputerem
+if [[ "$1" == "--computer" ]]; then
+    computer=1
+fi
 
 game_loop(){
     echo "Tic-tac-toe game"
