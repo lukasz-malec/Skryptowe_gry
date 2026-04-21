@@ -22,55 +22,52 @@ Demo: [Link do nagrania](https://github.com/lukasz-malec/Skryptowe_gry/tree/main
 
 ## Zamek w Minecraft
 
-Zamek należy stworzyć za pomocą skryptu napisanego w JS.
-3.0 Prosty zamek wykorzystując minimum 5 różnych rodzajów bloków
-3.5 Posiada mimum 4 okna
-4.0 Posiada fosę oraz most
-4.5 Posiada bramę oraz minimum 2 wieże
-5.0 Zamek ma minimum dwa poziomy (piętra) na które można wejść z
-zewnątrz
+Zamek należy stworzyć za pomocą skryptu napisanego w JS.</br>
+✅3.0 Prosty zamek wykorzystując minimum 5 różnych rodzajów bloków,</br>
+[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/5e379c475d4e2c172c693241e7c96debe8fd19fb) </br></br>
+❌3.5 Posiada mimum 4 okna</br></br>
+❌4.0 Posiada fosę oraz most</br></br>
+❌4.5 Posiada bramę oraz minimum 2 wieże</br></br>
+❌5.0 Zamek ma minimum dwa poziomy (piętra) na które można wejść z zewnątrz
 </br></br>
 
+
 ## Sklep w ReactJS + NodeJs
-Należy stworzyć prosty sklep z serwerem REST API
-3.0 Aplikacja ma podstawowe endpointy w NodeJS (np. Express) do
-produktów i kategorii
-3.5 Dane zapisywanie są w bazie danych po stronie NodeJS
-4.0 Axios wykorzystany do wywołań
-4.5 Opcja koszyka i płatności działa na React Hook
-5.0 Konfiguracja CORS po stronie NodeJS + konfiguracja po stronie
-ReactJS
+Należy stworzyć prosty sklep z serwerem REST API</br>
+❌3.0 Aplikacja ma podstawowe endpointy w NodeJS (np. Express) do
+produktów i kategorii</br></br>
+❌3.5 Dane zapisywanie są w bazie danych po stronie NodeJS</br></br>
+❌4.0 Axios wykorzystany do wywołań</br></br>
+❌4.5 Opcja koszyka i płatności działa na React Hook</br></br>
+❌5.0 Konfiguracja CORS po stronie NodeJS + konfiguracja po stronie ReactJS
 </br></br>
 
 ## Mario w PhaserJS
-Należy stworzyć prostego runnera (Mario) w PhaserJS.
-3.0 Należy stworzyć jeden poziom z przeszkodami oraz dziurami w które
-można wpaść i zginąć
-3.5 Należy dodać opcję zbierania punktów
-4.0 Należy dodać przeciwników, których można zabić oraz 3 życia
-4.5 Ładowanie poziomów z pliku
-5.0 Generator poziomów
+Należy stworzyć prostego runnera (Mario) w PhaserJS.</br>
+❌3.0 Należy stworzyć jeden poziom z przeszkodami oraz dziurami w które
+można wpaść i zginąć</br></br>
+❌3.5 Należy dodać opcję zbierania punktów</br></br>
+❌4.0 Należy dodać przeciwników, których można zabić oraz 3 życia</br></br>
+❌4.5 Ładowanie poziomów z pliku</br></br>
+❌5.0 Generator poziomów
 </br></br>
 
 ## Crawler w Ruby
 Należy stworzyć crawler produktów na Amazonie lub Allegro w Ruby
-wykorzystują bibliotekę Nokogiri.
-3.0 Należy pobrać podstawowe dane o produktach (tytuł, cena), dowolna
-kategoria
-3.5 Należy pobrać podstawowe dane o produktach wg słów kluczowych
-4.0 Należy rozszerzyć dane o produktach o dane szczegółowe widoczne
-tylko na podstronie o produkcie
-4.5 Należy zapisać linki do produktów
-5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel
+wykorzystują bibliotekę Nokogiri.</br>
+❌3.0 Należy pobrać podstawowe dane o produktach (tytuł, cena), dowolna kategoria</br></br>
+❌3.5 Należy pobrać podstawowe dane o produktach wg słów kluczowych</br></br>
+❌4.0 Należy rozszerzyć dane o produktach o dane szczegółowe widoczne tylko na podstronie o produkcie</br></br>
+❌4.5 Należy zapisać linki do produktów </br></br>
+❌5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel
 </br></br>
 
 
 ## Tetris  w Lua
 Należy stworzyć grę Tetris w Lua na frameworku Löve
-(https://love2d.org/).
-3.0 Postawowa wersja dekstopowa z obsługą na klawiaturze - minimum 4
-rodzaje klocków
-3.5 Zapis i odczyt gier
-4.0 Dodanie efektów dźwiękowych przy akcjach
-4.5 Dodanie animacji przy zbijaniu klocków
-5.0 Wersja na iOS lub Android z implementacją touch zamiast klawiatur
+(https://love2d.org/).</br>
+❌3.0 Postawowa wersja dekstopowa z obsługą na klawiaturze - minimum 4 rodzaje klocków </br></br>
+❌3.5 Zapis i odczyt gier </br></br>
+❌4.0 Dodanie efektów dźwiękowych przy akcjach </br></br>
+❌4.5 Dodanie animacji przy zbijaniu klocków </br></br>
+❌5.0 Wersja na iOS lub Android z implementacją touch zamiast klawiatur </br></br>
