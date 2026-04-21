@@ -20,6 +20,7 @@ Demo:(https://github.com/user-attachments/assets/13df902e-0562-4755-9645-5dab560
 </br></br>
 
 
+
 ## Zamek w Minecraft
 
 Zamek należy stworzyć za pomocą skryptu napisanego w JS.</br>
@@ -35,7 +36,7 @@ Zamek należy stworzyć za pomocą skryptu napisanego w JS.</br>
 </br></br>
 
 
-Demo: [Link do nagrania](https://github.com/lukasz-malec/Skryptowe_gry/tree/main/Minecraft/video)
+Demo: (https://github.com/user-attachments/assets/f7ed9941-c5ab-428f-9957-8a13d95a3976) 
 </br></br>
 
 ## Sklep w ReactJS + NodeJs
