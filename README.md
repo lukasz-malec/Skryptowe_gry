@@ -25,7 +25,8 @@ Demo: [Link do nagrania](https://github.com/lukasz-malec/Skryptowe_gry/tree/main
 Zamek należy stworzyć za pomocą skryptu napisanego w JS.</br>
 ✅3.0 Prosty zamek wykorzystując minimum 5 różnych rodzajów bloków,</br>
 [Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/5e379c475d4e2c172c693241e7c96debe8fd19fb) </br></br>
-❌3.5 Posiada mimum 4 okna</br></br>
+✅3.5 Posiada mimum 4 okna</br>
+[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/83490a923f9e967b31a5347c8231e01b0941cfb0) </br></br>
 ❌4.0 Posiada fosę oraz most</br></br>
 ❌4.5 Posiada bramę oraz minimum 2 wieże</br></br>
 ❌5.0 Zamek ma minimum dwa poziomy (piętra) na które można wejść z zewnątrz
