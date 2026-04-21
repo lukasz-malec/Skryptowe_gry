@@ -9,8 +9,13 @@ player.onChat("podloga", function () {
 })
 
 
-// pozycje sobie względem postaci, więc podczas wykonywania funkcji nie należy sie poruszać, zeby elementy nie były przesunięte 
 player.onChat("zamek_3.0", function () {
+    budujZamek()
+})
+
+
+// funkcja startowa
+function budujZamek () {
     budujWieze(0, 10)
     budujWieze(15, 10)
     budujWieze(0, 25)
@@ -26,10 +31,10 @@ player.onChat("zamek_3.0", function () {
     )
 
     blocks.fill(
-    POLISHED_ANDESITE,
-    pos(3, 0, 26),
-    pos(15, 5, 26),
-    FillOperation.Replace
+        POLISHED_ANDESITE,
+        pos(3, 0, 26),
+        pos(15, 5, 26),
+        FillOperation.Replace
     )
 
     blocks.fill(
@@ -40,10 +45,10 @@ player.onChat("zamek_3.0", function () {
     )
 
     blocks.fill(
-    POLISHED_ANDESITE,
-    pos(16, 0, 13),
-    pos(16, 5, 25),
-    FillOperation.Replace
+        POLISHED_ANDESITE,
+        pos(16, 0, 13),
+        pos(16, 5, 25),
+        FillOperation.Replace
     )
 
 
@@ -61,9 +66,7 @@ player.onChat("zamek_3.0", function () {
     for (let z2 = 13; z2 <= 25; z2 += 2) {
         blocks.place(BASALT, pos(16, 6, z2))
     }
-})
-
-
+}
 
 // minecraft code korzysta z js z statycznym typowaniem z ts
 function budujWieze (ox: number, oz: number) {
@@ -97,3 +100,51 @@ function budujWieze (ox: number, oz: number) {
     blocks.place(STONE_BRICK_MONSTER_EGG, pos(3 + ox, 8, 1 + oz))
 }
 
+
+
+
+player.onChat("zamek_3.5", function () {
+    budujZamek()
+    
+    budujOknaWiezy(0, 10)
+    budujOknaWiezy(15, 10)
+    budujOknaWiezy(0, 25)
+    budujOknaWiezy(15, 25)
+})
+
+
+
+function budujOknaWiezy (ox: number, oz: number) {
+
+    // okno od frontu wieży
+    blocks.fill(
+        GLASS,
+        pos(1 + ox, 2, oz),
+        pos(1 + ox, 3, oz),
+        FillOperation.Replace
+    )
+    
+    // okno z tyłu wieży
+    blocks.fill(
+        GLASS,
+        pos(1 + ox, 2, 2 + oz),
+        pos(1 + ox, 3, 2 + oz),
+        FillOperation.Replace
+    )
+
+    // okno z lewej strony wieży
+    blocks.fill(
+        GLASS,
+        pos(ox, 2, 1 + oz),
+        pos(ox, 3, 1 + oz),
+        FillOperation.Replace
+    )
+
+    // okno z prawej strony wieży
+    blocks.fill(
+        GLASS,
+        pos(2 + ox, 2, 1 + oz),
+        pos(2 + ox, 3, 1 + oz),
+        FillOperation.Replace
+    )
+}
