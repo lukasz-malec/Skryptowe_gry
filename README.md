@@ -35,6 +35,9 @@ Zamek należy stworzyć za pomocą skryptu napisanego w JS.</br>
 </br></br>
 
 
+Demo: [Link do nagrania](https://github.com/lukasz-malec/Skryptowe_gry/tree/main/Minecraft/video)
+</br></br>
+
 ## Sklep w ReactJS + NodeJs
 Należy stworzyć prosty sklep z serwerem REST API</br>
 ❌3.0 Aplikacja ma podstawowe endpointy w NodeJS (np. Express) do
