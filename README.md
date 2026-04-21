@@ -16,7 +16,7 @@ Oczywiście, aby uzyskać ocenę 4.0 należy spełnić wymagania na ocenę
 Termin to dwa tygodnie od dzisiaj. 
 </br></br>
 
-Demo: [Link do nagrania](https://github.com/lukasz-malec/Skryptowe_gry/tree/main/Bash/video)
+Demo:(https://github.com/user-attachments/assets/13df902e-0562-4755-9645-5dab560c3881)
 </br></br>
 
 
