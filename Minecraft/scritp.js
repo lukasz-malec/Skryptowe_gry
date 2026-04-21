@@ -148,3 +148,174 @@ function budujOknaWiezy (ox: number, oz: number) {
         FillOperation.Replace
     )
 }
+
+
+
+player.onChat("zamek_4.0", function () {
+    budujZamek()
+
+    budujOknaWiezy(0, 10)
+    budujOknaWiezy(15, 10)
+    budujOknaWiezy(0, 25)
+    budujOknaWiezy(15, 25)
+
+    budujFose()
+    budujMost()
+})
+
+
+
+
+
+function budujFose () {
+    const lebokoscWykop = -3
+    const glebokoscWoda = -2
+
+    // krawedzie dna 
+    blocks.fill(
+        STONE,
+        pos(-11, glebokoscWykop - 1, -1),
+        pos(29, glebokoscWykop - 1, -1),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        STONE,
+        pos(-11, glebokoscWykop - 1, 39),
+        pos(29, glebokoscWykop - 1, 39),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        STONE,
+        pos(-11, glebokoscWykop - 1, -1),
+        pos(-11, glebokoscWykop - 1, 39),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        STONE,
+        pos(29, glebokoscWykop - 1, -1),
+        pos(29, glebokoscWykop - 1, 39),
+        FillOperation.Replace
+    )
+
+
+    // ściany boczne fosy 
+    blocks.fill(
+        STONE,
+        pos(-12, glebokoscWykop - 1, -2),
+        pos(-12, 0, 40),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        STONE,
+        pos(30, glebokoscWykop - 1, -2),
+        pos(30, 0, 40),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        STONE,
+        pos(-12, glebokoscWykop - 1, -2),
+        pos(30, 0, -2),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        STONE,
+        pos(-12, glebokoscWykop - 1, 40),
+        pos(30, 0, 40),
+        FillOperation.Replace
+    )
+
+
+    // wykop fosy - AIR
+    blocks.fill(
+        AIR,
+        pos(-11, glebokoscWykop, -1),
+        pos(29, 0, -1),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        AIR,
+        pos(-11, glebokoscWykop, 39),
+        pos(29, 0, 39),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        AIR,
+        pos(-11, glebokoscWykop, -1),
+        pos(-11, 0, 39),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        AIR,
+        pos(29, glebokoscWykop, -1),
+        pos(29, 0, 39),
+        FillOperation.Replace
+    )
+
+
+    // wypełnianie fosy wodą
+    blocks.fill(
+        WATER,
+        pos(-11, glebokoscWoda, -1),
+        pos(29, 0, -1),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        WATER,
+        pos(-11, glebokoscWoda, 39),
+        pos(29, 0, 39),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        WATER,
+        pos(-11, glebokoscWoda, -1),
+        pos(-11, 0, 39),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        WATER,
+        pos(29, glebokoscWoda, -1),
+        pos(29, 0, 39),
+        FillOperation.Replace
+    )
+}
+
+
+
+function budujMost () {
+
+    // srodek mostu 
+    blocks.fill(
+        PLANKS_SPRUCE,
+        pos(6, 0, -1),
+        pos(9, 0, 10),
+        FillOperation.Replace
+    )
+
+
+    // poręcze po bokach mostu 
+    blocks.fill(
+        SPRUCE_FENCE,
+        pos(6, 1, -1),
+        pos(6, 1, 9),
+        FillOperation.Replace
+    )
+
+    blocks.fill(
+        SPRUCE_FENCE,
+        pos(9, 1, -1),
+        pos(9, 1, 9),
+        FillOperation.Replace
+    )
+}
