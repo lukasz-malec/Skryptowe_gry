@@ -168,7 +168,7 @@ player.onChat("zamek_4.0", function () {
 
 
 function budujFose () {
-    const lebokoscWykop = -3
+    const glebokoscWykop = -3
     const glebokoscWoda = -2
 
     // krawedzie dna 
@@ -316,6 +316,56 @@ function budujMost () {
         SPRUCE_FENCE,
         pos(9, 1, -1),
         pos(9, 1, 9),
+        FillOperation.Replace
+    )
+}
+
+
+player.onChat("zamek_4.5", function () {
+    budujZamek()
+
+    budujOknaWiezy(0, 10)
+    budujOknaWiezy(15, 10)
+    budujOknaWiezy(0, 25)
+    budujOknaWiezy(15, 25)
+
+    budujFose()
+    budujMost()
+
+    budujBrame()
+})
+
+
+
+
+function budujBrame() {
+    // brama dopasowana do mostu
+
+    // srodek wypelniony kratą
+    blocks.fill(
+        IRON_BARS,
+        pos(6, 0, 11),
+        pos(9, 4, 11),
+        FillOperation.Replace
+    )
+
+    // obramowanie bramy
+    blocks.fill(
+        STONE_BRICKS,
+        pos(5, 0, 11),
+        pos(5, 5, 11),
+        FillOperation.Replace
+    )
+    blocks.fill(
+        STONE_BRICKS,
+        pos(10, 0, 11),
+        pos(10, 5, 11),
+        FillOperation.Replace
+    )
+    blocks.fill(
+        STONE_BRICKS,
+        pos(5, 5, 11),
+        pos(10, 5, 11),
         FillOperation.Replace
     )
 }
