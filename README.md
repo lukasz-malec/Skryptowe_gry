@@ -42,8 +42,9 @@ Demo: (https://github.com/user-attachments/assets/f7ed9941-c5ab-428f-9957-8a13d9
 
 ## Sklep w ReactJS + NodeJs
 Należy stworzyć prosty sklep z serwerem REST API</br>
-❌3.0 Aplikacja ma podstawowe endpointy w NodeJS (np. Express) do
-produktów i kategorii</br></br>
+✅3.0 Aplikacja ma podstawowe endpointy w NodeJS (np. Express) do
+produktów i kategorii</br>
+[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/5cbf53400fd651f43bb837df013c6768a4bf3984) </br></br>
 ❌3.5 Dane zapisywanie są w bazie danych po stronie NodeJS</br></br>
 ❌4.0 Axios wykorzystany do wywołań</br></br>
 ❌4.5 Opcja koszyka i płatności działa na React Hook</br></br>
