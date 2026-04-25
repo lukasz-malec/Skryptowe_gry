@@ -39,6 +39,7 @@ Zamek należy stworzyć za pomocą skryptu napisanego w JS.</br>
 Demo: (https://github.com/user-attachments/assets/f7ed9941-c5ab-428f-9957-8a13d95a3976) 
 </br></br>
 
+
 ## Sklep w ReactJS + NodeJs
 Należy stworzyć prosty sklep z serwerem REST API</br>
 ❌3.0 Aplikacja ma podstawowe endpointy w NodeJS (np. Express) do
@@ -49,6 +50,8 @@ produktów i kategorii</br></br>
 ❌5.0 Konfiguracja CORS po stronie NodeJS + konfiguracja po stronie ReactJS
 </br></br>
 
+
+
 ## Mario w PhaserJS
 Należy stworzyć prostego runnera (Mario) w PhaserJS.</br>
 ❌3.0 Należy stworzyć jeden poziom z przeszkodami oraz dziurami w które
@@ -58,6 +61,7 @@ można wpaść i zginąć</br></br>
 ❌4.5 Ładowanie poziomów z pliku</br></br>
 ❌5.0 Generator poziomów
 </br></br>
+
 
 ## Crawler w Ruby
 Należy stworzyć crawler produktów na Amazonie lub Allegro w Ruby
