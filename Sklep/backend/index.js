@@ -3,6 +3,14 @@ const app = express()
 const port = 3000
 const  initDB = require("./db/initDB")
 const  initTables  =  require("./db/initTables")
+const cors = require("cors")
+
+
+app.use(cors({
+  origin: "http://localhost:5173"
+}))
+app.use(express.json())
+
 
 app.use(express.json())
 
