@@ -47,7 +47,9 @@ produktów i kategorii</br>
 [Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/5cbf53400fd651f43bb837df013c6768a4bf3984) </br></br>
 ✅3.5 Dane zapisywanie są w bazie danych po stronie NodeJS</br>
 [Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/090d15d416236ac6405cfd42817447f906a5201c) </br></br>
-❌4.0 Axios wykorzystany do wywołań</br></br>
+✅4.0 Axios wykorzystany do wywołań</br>
+[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/8e393424688513290b2a645c12d1a414f9e6c1d6) 
+<br><br>
 ❌4.5 Opcja koszyka i płatności działa na React Hook</br></br>
 ❌5.0 Konfiguracja CORS po stronie NodeJS + konfiguracja po stronie ReactJS
 </br></br>
