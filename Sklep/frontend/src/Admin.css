@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1a1a1a;
+  color: #e8e8e8;
+  font-family: sans-serif;
+}
+
+.admin {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #f0f0f0;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #242424;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 0.875rem 1.25rem;
+  transition: border-color 0.15s;
+}
+
+ul li:hover {
+  border-color: #555;
+}
+
+ul li span {
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+.li-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid #444;
+  background: transparent;
+  color: #aaa;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+button:hover {
+  border-color: #888;
+  color: #e8e8e8;
+}
+
+.btn-delete {
+  border-color: #5a2a2a;
+  color: #c47070;
+}
+
+.btn-delete:hover {
+  border-color: #c47070;
+  color: #e89090;
+}
+
+.btn-add {
+  border-color: #2a4a2a;
+  color: #70a870;
+}
+
+.btn-add:hover {
+  border-color: #70a870;
+  color: #90c890;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #242424;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 340px;
+}
+
+.modal h2 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #f0f0f0;
+  margin-bottom: 8px;
+}
+
+.modal label {
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 4px;
+}
+
+.modal input {
+  background: #2e2e2e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  color: #e8e8e8;
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.modal input:focus {
+  border-color: #666;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
