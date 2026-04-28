@@ -1,8 +1,6 @@
 const db = require("../data/db")
 
 // zapytania sql dla kryteriow
-
-
 const addCategory = (name, callback) => {
     db.run(
         "INSERT INTO categories (name) VALUES (?)", [name],
@@ -61,6 +59,7 @@ const getProductsByCategory = (category_id, callback) => {
         WHERE prod_cat.category_id = ?`,[category_id],callback)
 }
 
+
 // pobranie wszystkich kategorii danego produktu
 const getCategoriesByProduct = (product_id, callback) => {
   db.all(
@@ -72,5 +71,16 @@ const getCategoriesByProduct = (product_id, callback) => {
   )
 }
 
+
+
+const updateCategory = (id, name, callback) => {
+  db.run(
+    "UPDATE categories SET name = ? WHERE id = ?",
+    [name, id],
+    callback
+  );
+};
+
+
 module.exports = {  addCategory, getAllCategories, getCategoryById, deleteCategory,  
-                    addProductToCategory, getProductsByCategory, getCategoriesByProduct,}
+                    addProductToCategory, getProductsByCategory, getCategoriesByProduct,updateCategory}

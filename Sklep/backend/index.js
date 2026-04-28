@@ -15,10 +15,10 @@ app.use(express.json())
 app.use(express.json())
 
 const productsRouter = require("./routes/products")
-// const categoriesRouter = require("./routes/categories")
+const categoriesRouter = require("./routes/categories")
 
 app.use("/products", productsRouter)
-// app.use("/category", categoriesRouter)
+app.use("/category", categoriesRouter)
 
 initDB()
 initTables()
