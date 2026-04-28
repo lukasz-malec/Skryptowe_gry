@@ -55,6 +55,9 @@ produktów i kategorii</br>
 </br></br>
 
 
+Demo: (https://github.com/user-attachments/assets/0fe0434a-707c-4bcf-85e7-45dc78736c56)
+</br></br> 
+
 
 ## Mario w PhaserJS
 Należy stworzyć prostego runnera (Mario) w PhaserJS.</br>
