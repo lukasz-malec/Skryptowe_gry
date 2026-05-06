@@ -70,8 +70,7 @@ można wpaść i zginąć</br>
 ❌4.5 Ładowanie poziomów z pliku</br></br>
 ❌5.0 Generator poziomów
 </br></br>
-
-
+Demo: (https://github.com/user-attachments/assets/b1a3abfe-fc03-4d49-b08b-bda285c354f1)
 
 
 ## Crawler w Ruby
