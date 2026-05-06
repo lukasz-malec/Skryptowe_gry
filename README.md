@@ -70,6 +70,8 @@ można wpaść i zginąć</br></br>
 </br></br>
 
 
+
+
 ## Crawler w Ruby
 Należy stworzyć crawler produktów na Amazonie lub Allegro w Ruby
 wykorzystują bibliotekę Nokogiri.</br>
@@ -89,3 +91,4 @@ Należy stworzyć grę Tetris w Lua na frameworku Löve
 ❌4.0 Dodanie efektów dźwiękowych przy akcjach </br></br>
 ❌4.5 Dodanie animacji przy zbijaniu klocków </br></br>
 ❌5.0 Wersja na iOS lub Android z implementacją touch zamiast klawiatur </br></br>
+  
