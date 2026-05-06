@@ -1,5 +1,5 @@
 # Skryptowe_gry
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lukasz-malec_Skryptowe_gry&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=lukasz-malec_Skryptowe_gry)
 ## Kółko i krzyżyk
 
 W ramach pierwszego zadania proszę wykonać grę kółko i krzyżyk w
