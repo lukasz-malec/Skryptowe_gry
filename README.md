@@ -61,8 +61,9 @@ Demo: (https://github.com/user-attachments/assets/0fe0434a-707c-4bcf-85e7-45dc78
 
 ## Mario w PhaserJS
 Należy stworzyć prostego runnera (Mario) w PhaserJS.</br>
-❌3.0 Należy stworzyć jeden poziom z przeszkodami oraz dziurami w które
-można wpaść i zginąć</br></br>
+✅3.0 Należy stworzyć jeden poziom z przeszkodami oraz dziurami w które
+można wpaść i zginąć</br>
+[Link do commita ](https://github.com/lukasz-malec/Skryptowe_gry/commit/b70dad579c84153e94a085f09649d6c192c6b720)</br></br>
 ❌3.5 Należy dodać opcję zbierania punktów</br></br>
 ❌4.0 Należy dodać przeciwników, których można zabić oraz 3 życia</br></br>
 ❌4.5 Ładowanie poziomów z pliku</br></br>
