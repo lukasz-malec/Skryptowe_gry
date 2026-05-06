@@ -61,6 +61,21 @@ export class GameScene extends Phaser.Scene {
     this.cursors = this.input.keyboard.createCursorKeys();
     this.mapHeight = map.heightInPixels;
     this.isDead = false;
+
+
+
+     this.pointsLayer = map.createLayer("points", tileset, 0, 0);
+
+     // licznik punktów
+    this.score = 0;
+    this.scoreText = this.add.text(10, 10, "punkty: 0",
+    {
+      fontFamily: "'Press Start 2P'",
+      fontSize: "8px",
+      color: "#ffffff",
+    }).setScrollFactor(0); 
+
+
   }
 
   die() {
@@ -99,9 +114,23 @@ export class GameScene extends Phaser.Scene {
     }
 
 
+
+    // zbieranie punktow
+    const pointTile = this.pointsLayer.getTileAtWorldXY(this.player.x, this.player.y);
+
+
+    if (pointTile && pointTile.index !== -1)
+       {
+      this.score += 10;
+      this.scoreText.setText("punkty: " + this.score);
+      this.pointsLayer.removeTileAt(pointTile.x, pointTile.y);  // usuwamy zebrany punkt
+    }
+
+
     // szpikulce (przeszkody) 
     const spikeTile = this.spikesLayer.getTileAtWorldXY(this.player.x, this.player.y);
-    if (spikeTile && [1274, 1275, 1363, 1364].includes(spikeTile.index)) {
+    if (spikeTile && [1274, 1275, 1363, 1364].includes(spikeTile.index))
+    {
       this.die();
       return;
     }
