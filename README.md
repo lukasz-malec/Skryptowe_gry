@@ -86,8 +86,10 @@ wykorzystują bibliotekę Nokogiri.</br>
 ## Tetris  w Lua
 Należy stworzyć grę Tetris w Lua na frameworku Löve
 (https://love2d.org/).</br>
-❌3.0 Postawowa wersja dekstopowa z obsługą na klawiaturze - minimum 4 rodzaje klocków </br></br>
-❌3.5 Zapis i odczyt gier </br></br>
+✅3.0 Postawowa wersja dekstopowa z obsługą na klawiaturze - minimum 4 rodzaje klocków </br>
+[Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/7ee96a518e19f0acf5157aef2dd937d9682b11a9)</br></br>
+✅3.5 Zapis i odczyt gier </br>
+[Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/6cb512f80b48071969bc8de6a18024fddf35ee51)</br></br>
 ❌4.0 Dodanie efektów dźwiękowych przy akcjach </br></br>
 ❌4.5 Dodanie animacji przy zbijaniu klocków </br></br>
 ❌5.0 Wersja na iOS lub Android z implementacją touch zamiast klawiatur </br></br>
