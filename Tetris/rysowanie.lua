@@ -62,4 +62,13 @@ function Rysowanie.gameover(score)
     love.graphics.print("R = restart", 155, 270)
 end
 
+
+function Rysowanie.menu()
+    love.graphics.setColor(1, 1, 1, 1)
+    love.graphics.print("TETRIS", 170, 150)
+    love.graphics.print("T = nowa gra", 150, 220)
+    love.graphics.print("L = wczytaj zapis", 140, 250)
+end
+
+
 return Rysowanie

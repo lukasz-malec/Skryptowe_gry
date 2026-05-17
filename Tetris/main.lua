@@ -1,7 +1,7 @@
 local Plansza = require("plansza")
 local Figura = require("figura")
 local Rysowanie = require("rysowanie")
-
+local Zapis = require("zapis")
 
 function love.load()
 
@@ -14,12 +14,23 @@ function love.load()
     -- punkt startowy respawnu figur, 3 kolumna u gory
     G_x = 3
     G_y = 0
+
+    -- sprawdzanie czy jest zapisana gra
+    if love.filesystem.getInfo("zapis.txt") then
+        G_menu = true  -- ekran startowy
+    else
+        G_menu = false
+    end
 end
 
 
 function love.update(dt)
     if G_gameover then
         return
+    end
+
+    if G_menu then
+        return 
     end
 
     -- G_counter reguluje szybkosc spadania figur
@@ -47,13 +58,20 @@ end
 
 
 function love.draw()
+
+    if G_menu then
+            Rysowanie.menu()
+            return
+    end
+
+
     Rysowanie.siatka()
     Rysowanie.plansza(G_plansza)
     Rysowanie.figura(G_piece, G_x, G_y, G_color)
 
     love.graphics.setColor(1, 1, 1, 1)
     love.graphics.print("Wynik: " .. G_score, 10, 10)
-
+    love.graphics.print("S = zapis", 10, 30)
     if G_gameover then
         Rysowanie.gameover(G_score)
     end
@@ -61,10 +79,30 @@ end
 
 
 function love.keypressed(key)
+    if G_menu then
+        if key == "t" then
+            G_menu = false 
+        
+        elseif key == "l" then
+            local score, gx, gy = Zapis.wczytaj(G_plansza)
+            if score then
+                G_score = score
+                G_x = gx
+                G_y = gy
+            end
+            G_menu = false
+        end
+
+
+        return
+    end
 
     if key == "r" and G_gameover then
         love.load()
         return
+
+    elseif key == "s" then                                         
+        Zapis.zapisz(G_plansza, G_score, G_x, G_y)
     end
 
     if G_gameover then
