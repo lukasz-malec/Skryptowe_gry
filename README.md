@@ -84,7 +84,6 @@ wykorzystują bibliotekę Nokogiri.</br>
 ❌5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel
 </br></br>
 
-
 ## Tetris  w Lua
 Należy stworzyć grę Tetris w Lua na frameworku Löve
 (https://love2d.org/).</br>
