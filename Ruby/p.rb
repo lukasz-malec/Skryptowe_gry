@@ -6,15 +6,19 @@ require 'stringio'
 
 
 class Crawler
-  CATEGORY_URL = "https://www.amazon.pl/s?k=iphone+17"
 
   USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
   ]
 
+#   slowa kluczowe zamiast hardcodowanego url
+  def initialize(*keywords)
+    @keywords = keywords
+    @url = "https://www.amazon.pl/s?k=#{URI.encode_www_form_component(keywords.join(' '))}"
+  end
 
   def run
-    puts "Pobieram produkty:\n"
+    puts "Pobieram #{@keywords}:\n"
     products = scrape
     print_products(products)
   end
@@ -23,7 +27,7 @@ class Crawler
   private
 
   def scrape
-    doc = fetch_page(CATEGORY_URL)
+    doc = fetch_page(@url)
     return [] if doc.nil?
     parse(doc)
   end
@@ -88,4 +92,5 @@ class Crawler
   end
 end
 
-Crawler.new.run
+keyword = *ARGV
+Crawler.new(keyword).run
