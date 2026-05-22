@@ -76,7 +76,8 @@ Demo: (https://github.com/user-attachments/assets/b1a3abfe-fc03-4d49-b08b-bda285
 ## Crawler w Ruby
 Należy stworzyć crawler produktów na Amazonie lub Allegro w Ruby
 wykorzystują bibliotekę Nokogiri.</br>
-❌3.0 Należy pobrać podstawowe dane o produktach (tytuł, cena), dowolna kategoria</br></br>
+✅3.0 Należy pobrać podstawowe dane o produktach (tytuł, cena), dowolna kategoria</br>
+[Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/c78f8f6f6c85b71a758f7c121a90b67f34869606)</br></br>
 ❌3.5 Należy pobrać podstawowe dane o produktach wg słów kluczowych</br></br>
 ❌4.0 Należy rozszerzyć dane o produktach o dane szczegółowe widoczne tylko na podstronie o produkcie</br></br>
 ❌4.5 Należy zapisać linki do produktów </br></br>
