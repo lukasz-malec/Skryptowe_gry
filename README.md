@@ -82,7 +82,8 @@ wykorzystują bibliotekę Nokogiri.</br>
 [Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/69ffc3659c4dfb59e384fd78a5f2bff044190932)</br></br>
 ✅4.0 Należy rozszerzyć dane o produktach o dane szczegółowe widoczne tylko na podstronie o produkcie</br>
 [Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/d812cd83db9e5427bba45c71ccc15bb84f3eebd7)</br></br>
-❌4.5 Należy zapisać linki do produktów </br></br>
+✅4.5 Należy zapisać linki do produktów</br>
+[Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/d4f941f767251e14cd24821fa5fc823ee053e82d) </br></br>
 ❌5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel
 </br></br>
 
