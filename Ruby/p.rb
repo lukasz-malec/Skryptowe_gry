@@ -18,6 +18,7 @@ class Crawler
     puts "Pobieram #{@keywords}:\n"
     products = scrape
     print_products(products)
+    print_links(products)
   end
 
   private
@@ -171,5 +172,20 @@ class Crawler
     end
   end
 end
+
+
+def print_links(products)
+  return if products.empty?
+
+  puts "\n" + "=" * 60
+  puts "Linki do produktów:"
+  puts "=" * 60
+
+  products.each_with_index do |p, i|
+    puts "#{i + 1}. #{p[:url]}"
+  end
+end
+
+
 
 Crawler.new(*ARGV).run
