@@ -3,6 +3,7 @@ require 'net/http'
 require 'uri'
 require 'zlib'
 require 'stringio'
+require 'sequel'
 
 class Crawler
   USER_AGENTS = [
@@ -15,13 +16,31 @@ class Crawler
   end
 
   def run
+    setup_db 
     puts "Pobieram #{@keywords}:\n"
     products = scrape
     print_products(products)
     print_links(products)
+    save_products(products)
   end
 
   private
+
+  def setup_db
+    @db = Sequel.connect('sqlite://products.db')
+
+    @db.create_table?(:products) do
+      primary_key :id
+      String  :title
+      String  :price
+      String  :rating
+      String  :reviews
+      String  :description, text: true
+      String  :url
+      String  :tech_details, text: true 
+    end
+  end
+
 
   def scrape
     doc = fetch_page(@url)
@@ -148,6 +167,23 @@ class Crawler
     details
   end
 
+  def save_products(products)
+    products.each do |p|
+      @db[:products].insert(
+        title:        p[:title],
+        price:        p[:price],
+        rating:       p[:rating],
+        reviews:      p[:reviews],
+        description:  p[:description],
+        url:          p[:url],
+        tech_details: p[:tech_details].to_s
+      )
+    end
+    puts "\n Zapisano #{products.size} produktów do products.db"
+  end
+
+
+
   def print_products(products)
     if products.empty?
       puts "Brak wyników"
@@ -171,8 +207,6 @@ class Crawler
       puts "URL: #{p[:url]}"
     end
   end
-end
-
 
 def print_links(products)
   return if products.empty?
@@ -186,6 +220,6 @@ def print_links(products)
   end
 end
 
-
+end
 
 Crawler.new(*ARGV).run
