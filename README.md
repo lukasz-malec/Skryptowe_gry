@@ -84,8 +84,8 @@ wykorzystują bibliotekę Nokogiri.</br>
 [Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/d812cd83db9e5427bba45c71ccc15bb84f3eebd7)</br></br>
 ✅4.5 Należy zapisać linki do produktów</br>
 [Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/d4f941f767251e14cd24821fa5fc823ee053e82d) </br></br>
-❌5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel
-</br></br>
+✅5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel</br>
+[Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/7eb71b00773170c42345387353aa88317aa300cf)</br></br>
 
 ## Tetris  w Lua
 Należy stworzyć grę Tetris w Lua na frameworku Löve
