@@ -109,12 +109,14 @@ Należy stworzyć czatbota wraz z filtrem z wykorzystaniem lokalnego
 modelu językowego (np. Llama 3, Mistral, Gemma przez Ollama lub
 llama-cpp-python).</br>
 
-❌3.0 Czatbot z wytrenowaną umiejętnością (poprzez prompt) obsługi co
+✅3.0 Czatbot z wytrenowaną umiejętnością (poprzez prompt) obsługi co
 najmniej 3 sposobów sformułowania intencji (powitanie, menu,
-zamówienie).</br></br>
-❌3.5 Informacje o godzinach otwarcia i pozycjach w menu powinny być
+zamówienie).</br>
+[Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/62357da7bb0ba13d83dcc99a5342658f8d530e5b)</br></br>
+✅3.5 Informacje o godzinach otwarcia i pozycjach w menu powinny być
 pobierane z pliku konfiguracyjnego (JSON/YAML) i przekazywane do
-modelu.</br></br>
+modelu.</br>
+[Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/d717fbc7ed4e9e03c34fc8f867bd50d75be1e8d1)</br></br>
 ❌4.0 Czatbot musi przetworzyć zamówienie i potwierdzić zakupione
 posiłki, a także obsłużyć dodatkowe prośby (np. alergie, modyfikacje
 dań). Dane o alergiach, składzie, daniach ładowy z api aplikacji
@@ -126,3 +128,9 @@ w restauracji (estymacja czasu na podstawie zamówienia).</br></br>
 opcji odbioru osobistego, weryfikując kompletność danych adresowych.
 Zapisać zamówienie przez wywołanie api aplikacji we Flasku. We Flasku
 zapisujemy dane zamówienia w bazie.</br></br>
+
+Demo: (https://github.com/user-attachments/assets/73cc5fb8-7d1b-4c6a-a496-706614d3d170)
+
+
+
+
