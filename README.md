@@ -1,5 +1,6 @@
 # Skryptowe_gry
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lukasz-malec_Skryptowe_gry&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=lukasz-malec_Skryptowe_gry)
+
 ## Kółko i krzyżyk
 
 W ramach pierwszego zadania proszę wykonać grę kółko i krzyżyk w
@@ -87,6 +88,7 @@ wykorzystują bibliotekę Nokogiri.</br>
 ✅5.0 Dane należy zapisać w bazie danych np. SQLite via Sequel</br>
 [Link do commita](https://github.com/lukasz-malec/Skryptowe_gry/commit/7eb71b00773170c42345387353aa88317aa300cf)</br></br>
 
+Demo: (https://github.com/user-attachments/assets/893a60bb-9f3a-4af1-9621-e0e8e563f570) </br></br>
 ## Tetris  w Lua
 Należy stworzyć grę Tetris w Lua na frameworku Löve
 (https://love2d.org/).</br>
