@@ -1,0 +1,11 @@
+{
+    "nazwa_restauracji": "Pizzeria",
+    "godziny_otwarcia": "poniedziałek-niedziela 12:00-20:00",
+    "menu": [
+        {"nazwa": "Pizza Margherita", "cena": 25},
+        {"nazwa": "Pizza Capriciosa", "cena": 26},
+        {"nazwa": "Pizza Milano ", "cena": 28},
+        {"nazwa": "Pizza Formaggi", "cena": 28},
+        {"nazwa": "Pizza Vegatarian", "cena": 28}
+    ]
+}
